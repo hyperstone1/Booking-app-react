@@ -1,0 +1,203 @@
+.closebutton {
+  /* background: url(./img/close.png); */
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  border: none;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+}
+.form__modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(220, 216, 232);
+}
+.closebutton:active .form__modal {
+  visibility: hidden;
+}
+input {
+  color: rgb(38, 64, 87);
+}
+input[type="text"] {
+  position: relative;
+  margin-right: 0 auto;
+  right: 2px;
+  border: 2px solid rgb(77, 66, 66);
+  border-radius: 8px;
+  outline: none;
+  width: 98%;
+  height: 22px;
+  font-size: 18px;
+  text-align: center;
+}
+
+input[type="text"]:focus {
+  box-shadow: 5px 5px 18px 5px rgb(24, 22, 22);
+}
+
+input[type="email"] {
+  position: relative;
+  margin-right: 0 auto;
+  right: 2px;
+  border: 2px solid rgb(77, 66, 66);
+  border-radius: 8px;
+  outline: none;
+  width: 98%;
+  height: 22px;
+  font-size: 18px;
+  text-align: center;
+}
+input[type="email"]:focus {
+  box-shadow: 5px 5px 18px 5px rgb(24, 22, 22);
+}
+.choose__time {
+  font-size: 20px;
+}
+b {
+  border-bottom: 2px solid #fff;
+}
+
+select {
+  width: 7vw;
+  height: 2vw;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  background-color: rgb(135, 163, 151);
+  border-radius: 8px;
+  outline: none;
+  width: 100px;
+  height: 30px;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+input[type="reset"] {
+  border-radius: 8px;
+  outline: none;
+  width: 100px;
+  height: 30px;
+  font-size: 17px;
+  background-color: rgb(135, 163, 151);
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+@media (max-width: 1106px) {
+  input[type="text"] {
+    width: 25vw;
+    height: 19px;
+  }
+  select {
+    width: 7vw;
+    height: 2vw;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  input[type="email"] {
+    width: 25vw;
+    height: 19px;
+  }
+  input[type="submit"] {
+    width: 80px;
+    height: 22px;
+    font-size: 14px;
+  }
+  input[type="reset"] {
+    width: 80px;
+    height: 22px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 675px) {
+  input[type="text"] {
+    width: 35vw;
+    height: 15px;
+    font-size: 14px;
+  }
+  select {
+    width: 10vw;
+    height: 3vw;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  input[type="email"] {
+    width: 35vw;
+    height: 15px;
+    font-size: 14px;
+  }
+  input[type="submit"] {
+    width: 70px;
+    height: 25px;
+    font-size: 12px;
+  }
+  input[type="reset"] {
+    width: 70px;
+    height: 25px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 510px) {
+  input[type="text"] {
+    width: 45vw;
+    height: 14px;
+    font-size: 12px;
+  }
+  select {
+    width: 13vw;
+    height: 4vw;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  input[type="email"] {
+    width: 45vw;
+    height: 14px;
+    font-size: 12px;
+  }
+  input[type="submit"] {
+    width: 70px;
+    height: 20px;
+    font-size: 12px;
+  }
+  input[type="reset"] {
+    width: 64px;
+    height: 20px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 446px) {
+  input[type="text"] {
+    width: 53vw;
+    height: 12px;
+    font-size: 12px;
+  }
+  select {
+    width: 17vw;
+    height: 5vw;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  input[type="email"] {
+    width: 53vw;
+    height: 12px;
+    font-size: 12px;
+  }
+  input[type="submit"] {
+    width: 62px;
+    height: 20px;
+    font-size: 10px;
+  }
+  input[type="reset"] {
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+  }
+}
